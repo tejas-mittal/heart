@@ -41,10 +41,11 @@ svg path#heart {
 }
 
 @keyframes blink {
-  0%, 60% { opacity: 0; transform: scale(0); }
-  70% { opacity: 1; transform: scale(1.2); }
-  75%, 85% { transform: scale(1.0); }
-  100% { opacity: 0; }
+  0%, 60% { opacity: 0; transform: scale(0); fill: #a00000;}
+  70% { opacity: 1; transform: scale(1.2); fill:#a00000;}
+  75%, 85% { transform: scale(1.0);fill: #a00000;}
+  100% { opacity: 0; fill:#a00000;}
+  
 }
 
 button {
